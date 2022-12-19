@@ -1,0 +1,24 @@
+{
+  "name": "intrasections-doc",
+  "version": "0.0.1",
+  "description": "Official Intrasections Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Intrasection",
+    "email": "info@intrasection.com"
+  },
+  "repository": "https://github.com/studentofcoding/intrasections_docs",
+  "scripts": {
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider &&vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@maginapp/vuepress-plugin-copy-code": "^1.0.0",
+    "vuepress": "^1.9.7",
+    "vuepress-theme-dark": "^0.1.0"
+  },
+  "dependencies": {
+    "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
+  }
+}
